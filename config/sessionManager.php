@@ -18,25 +18,29 @@ class  sessionManager extends model
     }
     public function isLogged()
     {
-        if (isset($_SESSION['email']) and isset($_SESSION['password']))
+        if(isset($_SESSION['email']) and isset($_SESSION['password']))
         {
-          $sqlQuery=$this->db->query("select *from where email=?,password=?");
-          $sqlQuery->execute(array($_SESSION['email'],$_SESSION['password']));
-          if ($sqlQuery->rowCount()!=0)
-          {
-              return true;
-          }
-          else
-              {
-                  return false;
+            $email = $_SESSION['email'];
+            $password = $_SESSION['password'];
+            $query = $this->db->prepare("select * from users where email =? and password = ? ");
+            $query->execute(array($email,$password));
 
-              }
+
+            if($query->rowcount()!=0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
         else
         {
-           false;
+            false;
         }
     }
+
     public  function getUserInfo()
     {
         if ($this->isLogged())
