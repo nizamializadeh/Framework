@@ -10,7 +10,7 @@ class user extends model
 
 public function control($email,$password)
 {
-    $sqlQuery=$this->db->prepare("select * from user where email=? and password = ? ");
+    $sqlQuery=$this->db->prepare("select * from users where email=? and password = ? ");
     $sqlQuery->execute(array($email,$password));
     return $sqlQuery->rowCount();
 }

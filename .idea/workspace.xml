@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdfad98f-8e43-41c3-bc7e-dcae200a5a6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Framework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/controller/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/controller/posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/models/post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/view/showpost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/view/welcome.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/controller/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/controller/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/controller/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/controller/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/controller/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/controller/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/controller/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/controller/users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/models/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/models/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/view/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/view/main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/view/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/view/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/view/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/view/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/sessionManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/sessionManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/system.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/system.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +27,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/controller/login.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/controller/posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="459">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/Application/controllers/category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/view/welcome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/models/post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/Application/models/categoryModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="30" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/view/showpost.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/Application/views/category/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -45,35 +93,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/sessionManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="391">
+              <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/controller/users.php">
+        <entry file="file://$PROJECT_DIR$/config/helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/controller/register.php">
+        <entry file="file://$PROJECT_DIR$/config/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/view/register.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="72" column="44" lean-forward="true" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+            <state relative-caret-position="102">
+              <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -85,6 +124,7 @@
       <find>index</find>
       <find>form</find>
       <find>//</find>
+      <find>desc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,35 +134,43 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.htaccsess" />
-        <option value="$PROJECT_DIR$/Application/controller/users.php" />
         <option value="$PROJECT_DIR$/Application/view/index.php" />
         <option value="$PROJECT_DIR$/Application/view/main/index.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa6924.14346/model.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa6924.13382/model.php" />
         <option value="$PROJECT_DIR$/core/model.php" />
-        <option value="$USER_HOME$/Desktop/Ars-iv (2)/init.php" />
+        <option value="$PROJECT_DIR$/../../Ars-iv (2)/init.php" />
         <option value="$PROJECT_DIR$/core/system.php" />
-        <option value="$USER_HOME$/Desktop/Ars-iv (2)/config/helper.php" />
+        <option value="$PROJECT_DIR$/../../Ars-iv (2)/config/helper.php" />
         <option value="$PROJECT_DIR$/init.php" />
-        <option value="$USER_HOME$/Desktop/Ars-iv (2)/core/view.php" />
+        <option value="$PROJECT_DIR$/../../Ars-iv (2)/core/view.php" />
         <option value="$PROJECT_DIR$/core/view.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/core/controller.php" />
         <option value="$PROJECT_DIR$/config/default.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa756.3956/login.php" />
         <option value="$PROJECT_DIR$/config/helper.php" />
-        <option value="$USER_HOME$/Desktop/Ars-iv (3)/Application/controllers/login.php" />
-        <option value="$USER_HOME$/Desktop/Ars-iv (3)/Application/models/uyeModel.php" />
-        <option value="$USER_HOME$/Desktop/Ars-iv (3)/Application/views/login.php" />
-        <option value="$USER_HOME$/Desktop/Ars-iv (3)/Application/controllers/musteriler.php" />
-        <option value="$PROJECT_DIR$/Application/view/login.php" />
-        <option value="$PROJECT_DIR$/Application/view/register.php" />
+        <option value="$PROJECT_DIR$/../../Ars-iv (3)/Application/controllers/login.php" />
+        <option value="$PROJECT_DIR$/../../Ars-iv (3)/Application/models/uyeModel.php" />
+        <option value="$PROJECT_DIR$/../../Ars-iv (3)/Application/views/login.php" />
+        <option value="$PROJECT_DIR$/../../Ars-iv (3)/Application/controllers/musteriler.php" />
+        <option value="$PROJECT_DIR$/../../Ars-iv (3)/config/sessionManager.php" />
         <option value="$PROJECT_DIR$/Application/controller/main.php" />
-        <option value="$PROJECT_DIR$/Application/models/user.php" />
+        <option value="$PROJECT_DIR$/Application/controller/logout.php" />
         <option value="$PROJECT_DIR$/Application/controller/register.php" />
-        <option value="$USER_HOME$/Desktop/Ars-iv (3)/config/sessionManager.php" />
-        <option value="$PROJECT_DIR$/config/sessionManager.php" />
+        <option value="$PROJECT_DIR$/Application/models/user.php" />
+        <option value="$PROJECT_DIR$/Application/controller/users.php" />
+        <option value="$PROJECT_DIR$/Application/view/register.php" />
+        <option value="$PROJECT_DIR$/Application/controller/post.php" />
+        <option value="$PROJECT_DIR$/Application/view/login.php" />
         <option value="$PROJECT_DIR$/Application/controller/login.php" />
+        <option value="$PROJECT_DIR$/config/sessionManager.php" />
+        <option value="$USER_HOME$/Desktop/Ars-iv (3)/Application/controllers/category.php" />
+        <option value="$USER_HOME$/Desktop/Ars-iv (3)/Application/views/category/index.php" />
+        <option value="$PROJECT_DIR$/Application/controller/posts.php" />
+        <option value="$PROJECT_DIR$/Application/view/showpost.php" />
+        <option value="$PROJECT_DIR$/Application/models/post.php" />
+        <option value="$PROJECT_DIR$/Application/view/welcome.php" />
       </list>
     </option>
   </component>
@@ -135,11 +183,13 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +229,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,21 +275,23 @@
       <workItem from="1544687365767" duration="457000" />
       <workItem from="1544689015641" duration="2496000" />
       <workItem from="1544729195718" duration="9522000" />
+      <workItem from="1544765596905" duration="6642000" />
+      <workItem from="1544981139475" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38545000" />
+    <option name="totallyTimeSpent" value="55018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.2730711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.27760968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.2688822" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -261,13 +312,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/view/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6924.14346/model.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6924.5475/controller.php" />
     <entry file="file://$PROJECT_DIR$/Application/models/uye.php" />
@@ -276,8 +320,8 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6924.13880/model.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6924.13813/model.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6924.13382/model.php" />
-    <entry file="file://$USER_HOME$/Desktop/Ars-iv (2)/config/default.php" />
-    <entry file="file://$USER_HOME$/Desktop/Ars-iv (2)/init.php" />
+    <entry file="file://$PROJECT_DIR$/../../Ars-iv (2)/config/default.php" />
+    <entry file="file://$PROJECT_DIR$/../../Ars-iv (2)/init.php" />
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -285,15 +329,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ars-iv (2)/config/helper.php" />
-    <entry file="file://$USER_HOME$/Desktop/Ars-iv (2)/core/view.php" />
-    <entry file="file://$PROJECT_DIR$/Application/view/main/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ars-iv (2)/config/helper.php" />
+    <entry file="file://$PROJECT_DIR$/../../Ars-iv (2)/core/view.php" />
     <entry file="file://$PROJECT_DIR$/core/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -316,73 +353,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa756.3956/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/Application/controllers/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="true" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/Application/views/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/Application/models/uyeModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/Application/controllers/musteriler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/view/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="62" column="6" lean-forward="true" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa756.3956/login.php" />
+    <entry file="file://$PROJECT_DIR$/../../Ars-iv (3)/Application/controllers/login.php" />
+    <entry file="file://$PROJECT_DIR$/../../Ars-iv (3)/Application/views/login.php" />
+    <entry file="file://$PROJECT_DIR$/../../Ars-iv (3)/Application/models/uyeModel.php" />
+    <entry file="file://$PROJECT_DIR$/../../Ars-iv (3)/Application/controllers/musteriler.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/controller/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -400,59 +379,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/Application/models/musterilerModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/controller/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/config/sessionManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/sessionManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/controller/users.php">
+    <entry file="file://$PROJECT_DIR$/../../Ars-iv (3)/Application/models/musterilerModel.php" />
+    <entry file="file://$PROJECT_DIR$/../../Ars-iv (3)/config/sessionManager.php" />
+    <entry file="file://$PROJECT_DIR$/Application/view/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <caret column="8" lean-forward="true" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/models/user.php">
+    <entry file="file://$PROJECT_DIR$/Application/view/main/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="34">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/view/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="72" column="44" lean-forward="true" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+        <state relative-caret-position="518">
+          <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Git/ReleaseNotes.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/view/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/controller/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/controller/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/controller/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="153">
+          <caret line="15" column="75" lean-forward="true" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/controller/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/controller/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/models/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/sessionManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/Application/views/category/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/Application/models/categoryModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Ars-iv (3)/Application/controllers/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/view/showpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/controller/posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/models/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/view/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
         </state>
       </provider>
     </entry>

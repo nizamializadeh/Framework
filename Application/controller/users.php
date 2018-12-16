@@ -1,11 +1,12 @@
 <?php
-class users
+class users extends controller
 {
     public function index()
     {
-        echo "Welcome Users";
+        $this->render("welcome");
+//        echo "Welcome Users";
+        return 'welcome';
     }
-
     public function lists($id)
     {
         echo "Users List"."". $id;

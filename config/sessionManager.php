@@ -24,8 +24,6 @@ class  sessionManager extends model
             $password = $_SESSION['password'];
             $query = $this->db->prepare("select * from users where email =? and password = ? ");
             $query->execute(array($email,$password));
-
-
             if($query->rowcount()!=0)
             {
                 return true;

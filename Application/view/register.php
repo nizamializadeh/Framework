@@ -101,6 +101,11 @@
                 </div>
                 <div class="forgot">
                     <a href="reset.html">Forgot password?</a>
+
+                </div>
+                <div class="forgot">
+                    <a href="<?=SITE_URL;?>/register/index">Register</a>
+
                 </div>
                 <button type="submit" class="btn btn-primary">Login</button>
 
