@@ -20,7 +20,6 @@
     </style>
 </head>
 <body>
-
 <h2>HTML Table</h2>
 
 <table>
@@ -40,6 +39,8 @@
                 <td><?=$value['title'];?></td>
                 <td><?=$value['description'];?></td>
                 <td><?=$_SESSION['email'];?></td>
+                <th><a href="<?=SITE_URL;?>/posts/getComment/<?=$value['id'];?>">comment</a></th>
+
             </tr>
             <?php
         }
