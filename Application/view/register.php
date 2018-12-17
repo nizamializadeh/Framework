@@ -104,7 +104,7 @@
 
                 </div>
                 <div class="forgot">
-                    <a href="<?=SITE_URL;?>/register/index">Register</a>
+                    <a href="<?=SITE_URL;?>/login/index">Login</a>
 
                 </div>
                 <button type="submit" class="btn btn-primary">Login</button>
