@@ -107,7 +107,7 @@
                     <a href="<?=SITE_URL;?>/login/index">Login</a>
 
                 </div>
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-primary">Register</button>
 
             </form>
         </div>

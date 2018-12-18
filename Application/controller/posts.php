@@ -31,10 +31,35 @@ class posts extends controller
     }
     public function show()
     {
-
+        if(!$this->sessionManager->isLogged()){helper::redirect(SITE_URL); die();}
         $data=$this->model('post')->show();
         $this->render('showpost',['data'=>$data]);
-
-
+    }
+    public function delete($id)
+    {
+        if(!$this->sessionManager->isLogged()){helper::redirect(SITE_URL); die();}
+        $delete=$this->model('post')->delete($id);
+        helper::redirect(SITE_URL . "/posts/show");
+    }
+    public function getrating($id)
+    {
+        $this->render('rating',['data'=>$id]);
+    }
+    public function rating()
+    {
+        $count=$_POST['count'];
+        $user_email=$_SESSION['email'];
+        $post_id=$_POST['post_id'];
+        if(!$this->sessionManager->isLogged()){helper::redirect(SITE_URL); die();}
+        $rating=$this->model('post')->rating($count,$user_email,$post_id);
+        if ($rating)
+        {
+            helper::flashData("statu", "Successfully ");
+            helper::redirect(SITE_URL . "/posts/show");
+        }
+        else{
+            helper::flashData("statu", "don't Successfully");
+            helper::redirect(SITE_URL . "/posts/show");
+        }
     }
 }

@@ -28,8 +28,10 @@
         <th>TITLE</th>
         <th>DESC</th>
         <th>USERNAME</th>
+        <th>Action</th>
+        <th>Rating</th>
     </tr>
-
+    <?php if(isset($_SESSION['statu'])) {  ?> <p class="login-box-msg"><?=$_SESSION['statu'];?></p>  <?php } ?>
     <?php
     if(isset($data)!=0)
     {
@@ -40,6 +42,8 @@
                 <td><?=$value['title'];?></td>
                 <td><?=$value['description'];?></td>
                 <td><?=$_SESSION['email'];?></td>
+                <th><a href="<?=SITE_URL;?>/posts/delete/<?=$value['id'];?>">Delete</a></th>
+                <th><a href="<?=SITE_URL;?>/posts/getrating/<?=$value['id'];?>">Rating ver</a></th>
             </tr>
             <?php
         }
