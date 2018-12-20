@@ -1,5 +1,9 @@
 <h2>
-    <a href="<?=SITE_URL;?>/posts/show">showpost</a>
+    <a href="<?=SITE_URL;?>/posts/showAll">show All posts</a>
+
+</h2>
+<h2>
+    <a href="<?=SITE_URL;?>/posts/show">show my posts</a>
 
 </h2>
 <h1><a href="<?=SITE_URL;?>/logout">logout</a>
